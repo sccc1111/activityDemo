@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textSize="16sp"
+        android:textColor="#444444" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_describe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginTop="10dp"
+        android:maxLines="2"
+        android:text="dddddddddddddddddddddddd"
+        android:minLines="1"
+        android:textColor="#898989"
+        android:textSize="16sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_describe"
+        android:layout_marginTop="10dp"
+        android:text="20130240122"
+        android:textColor="#898989"
+        android:textSize="12sp" >
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_describe"
+        android:background="#5cbe6c"
+        android:text="删除"
+        android:textColor="#ffffff"
+        android:textSize="12sp" >
+    </Button>
+</RelativeLayout>
